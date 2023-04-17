@@ -1,13 +1,12 @@
 <template>
-  <card />
+  <card-flip />
 </template>
 <script>
-import Card, { card } from './Card.vue'
+import CardFlip from "./Card.vue";
 
-export default defineComponent({
-  components: { Card },
-    component:{
-        card,
-    },
-})
+export default {
+  component: {
+    CardFlip,
+  },
+};
 </script>
